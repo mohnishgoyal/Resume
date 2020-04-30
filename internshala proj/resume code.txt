@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+  	body{
+  		font-family:'Lato', sans-serif;
+  	}
+  </style>
+</head>
+<body>
+<div class="container mt-5">
+	<div class="jumbotron bg-info">
+		<div class="d-flex flex-row bg-warning">
+  			<div class="p-2"><picture>
+  			<source srcset="C:\Users\mohni\Desktop\internshala proj/Resume.png" type="image/svg+xml">
+  			<img src="C:\Users\mohni\Desktop\internshala proj/Resume.png" class="img-fluid img-thumbnail">
+		</picture></div>
+			<div class="d-flex flex-column">
+  				<div class="p-0 display-4">HERMAN</div>
+  				<div class="pb-3 display-4">WALTON</div>  			
+  				<div class="p-0"><strong>STUDENT</strong></div> 
+			</div>
+		?</div>
+		<details class="contacts text-white">
+			<summary class="d-block p-2 text-white bg-dark">Contacts</summary>
+			<ul class="list-unstyled">
+				<li>4200 Pallisade Avenue, Riverdale, 10471, United</li>
+				<li>States</li>
+				<li>hw12@yahoo.com</li>
+				<li>(917)324-1818</li>
+			</ul>
+		</details>
+		<details class="profile text-white">
+			<summary class="d-block p-2 text-white bg-dark">Profile</summary>
+			<p>Hardworking student seeking employment. Ready to utilize my skills and passion to further the mission of a company. Technologically adept, offering experience with many different social media platforms, office technology programs, and advanced computer skills. Bringing forth a positive attitude and the willingness and motivation to learn platform to learn new programs.</p>
+		</details>
+		<details class="education text-white">
+			<summary class="d-block p-2 text-white bg-dark">Education</summary>
+			<div>
+				<ol class="list-unstyled">
+					<li><strong>Bachelor of Communications, New York Unviersity, New York</strong></li>
+					<li><small class="text-white">AUGUST 2016-PRESENT</small></li>
+						<ul>
+							<li>Working towards a Communication Degree</li>
+						</ul>
+					<li><strong>High School Diploma, Regis High School, New York</strong></li>
+					<li><small class="text-white">SEPTEMBER 2012 - MAY 2016</small></li>
+						<ul>
+							<li>Graduated with High Honors</li>
+						</ul>
+				</ol>
+			</div>
+		</details>
+		<details class="work text-white">
+			<summary class="d-block p-2 text-white bg-dark">Employment History</summary>
+			<ul class="list-unstyled">
+				<li><strong>Sales Associate, Big Apple Bookstore, New York</strong></li>
+				<li><small class="text-white">SEPTEMBER 2015 - JUNE 2018</small></li>
+				<ul>
+					<li>Greetend customers and assisted them with finding books.</li>
+					<li>Offered literary suggestions based on the needs and desires of the customer.</li>
+					<li>Followed direction from my Supervisor and managed projects with precision.</li>
+					<li>Organised books and adhered to the policies and mission of the bookstore.</li>
+				</ul>
+			</ul>
+		</details>
+		<details class="skills text-white">
+			<summary class="d-block p-2 text-white bg-dark">Skills</summary>
+			<table class="table text-white">
+				<tbody>
+   				 <tr>
+      				<td>Advanced Communication Skills</td>
+      				<td>Office technology Skills</td>
+      			 </tr>
+      			 <tr>	
+      				<td>Motivated Attitude</td>
+      				<td>Social Media Platforms</td>
+    			 </tr>
+    			</tbody>
+			</table>		
+		</details>
+		<details class="lang text-white">
+			<summary class="d-block p-2 text-white bg-dark">Languages</summary>
+			<table class="table text-white">
+				<tbody>
+   				 <tr>
+      				<td>French</th>
+      				<td>Dutch</td>
+    			 </tr>
+    			</tbody>
+			</table>
+		</details>
+	</div>
+</div>
+</body>
+</html>
