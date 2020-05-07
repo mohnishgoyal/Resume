@@ -1,0 +1,100 @@
+body{
+	color: #ffffff !important;
+	background-color: #000000 !important;
+	padding-bottom: 50px; 
+}
+
+.navbar-light .navbar-toggler-icon{
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAzMiAzMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzIgMzI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOm5vbmU7fQ0KCS5zdDF7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS1taXRlcmxpbWl0OjEwO30NCjwvc3R5bGU+DQo8Zz4NCgk8dGl0bGU+YmFja2dyb3VuZDwvdGl0bGU+DQoJPHJlY3QgaWQ9ImNhbnZhc19iYWNrZ3JvdW5kIiB4PSItMSIgeT0iLTEiIGNsYXNzPSJzdDAiIHdpZHRoPSI1ODIiIGhlaWdodD0iNDAyIi8+DQo8L2c+DQo8Zz4NCgk8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+DQoJPHBhdGggaWQ9InN2Z18xIiBjbGFzcz0ic3QxIiBkPSJNNCwxMGgyNGMxLjEsMCwyLTAuOSwyLTJzLTAuOS0yLTItMkg0QzIuOSw2LDIsNi45LDIsOFMyLjksMTAsNCwxMHogTTI4LDE0SDRjLTEuMSwwLTIsMC45LTIsMg0KCQlzMC45LDIsMiwyaDI0YzEuMSwwLDItMC45LDItMlMyOS4xLDE0LDI4LDE0eiBNMjgsMjJINGMtMS4xLDAtMiwwLjktMiwyczAuOSwyLDIsMmgyNGMxLjEsMCwyLTAuOSwyLTJTMjkuMSwyMiwyOCwyMnoiLz4NCjwvZz4NCjwvc3ZnPg0K') !important;
+}
+
+.container >.bg-light{
+	background-color: #000000 !important;
+	
+}
+
+.navbar-light{
+	align-content: center;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link{
+	color: #0000ff !important;
+	font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	text-decoration: underline;
+}
+
+
+.navbar-light .navbar-brand:hover{
+	font-weight: bold;
+}
+
+.about>p{
+	padding: 30px;
+}
+
+.workshop, .contact, .about{
+	text-align: center;
+	font-size: 3em;
+	color: #0000ff;
+	font-weight: bold;
+}
+
+
+
+@media (max-width: 320px){
+	.workshop{
+	font-size: 1.5em !important;
+}
+	.about{
+	font-size: 1.5em;
+}
+	.contact{
+		font-size: 1.5em;
+}
+	.col-lg-4 {
+	padding-bottom: 20px;
+}
+}
+
+.work>p{
+	border: 2px solid #0000ff;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.about-content> p{
+	border: 2px solid #0000ff;
+	border-radius: 20px;
+	text-align: center;
+}
+.nav-item{
+	padding-left: 1.5em;
+}
+
+.navbar{
+	width:100%;
+	height: 75%;
+}
+
+.btn-primary{
+	text-align: center;
+}
+
+h3{
+	color: #0000ff;
+	font-weight: bold !important;
+}
+
+.footer, .team{
+	padding-top: 50px;
+}
+
+.col-lg-4 >div{
+	border: 2px solid #0000ff;
+	border-radius: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
